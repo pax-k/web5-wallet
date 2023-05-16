@@ -105,4 +105,9 @@ target 'web5wallet' do
     use_native_modules!
   end
 
+  target 'WebExtension' do
+  inherit! :complete
+  use_native_modules!
+  end
+
 end

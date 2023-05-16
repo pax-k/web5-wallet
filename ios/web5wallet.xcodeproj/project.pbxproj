@@ -12,6 +12,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1EBC60F01AA47DBADD002E6F /* libPods-web5wallet-ActionExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D4A04F0852FDE3AC5C1502 /* libPods-web5wallet-ActionExtension.a */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		61A16F3C726968B057268C4C /* libPods-web5wallet-WebExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 604C1EA6CE39E4B8FBF4749B /* libPods-web5wallet-WebExtension.a */; };
 		96905EF65AED1B983A6B3ABC /* libPods-web5wallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-web5wallet.a */; };
 		A46DC75E29F71BC300AFEF36 /* ActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46DC75D29F71BC300AFEF36 /* ActionExtension.swift */; };
 		A46DC76029F7201900AFEF36 /* ActionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A46DC75F29F7201900AFEF36 /* ActionExtension.m */; };
@@ -34,6 +35,7 @@
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		C3B8E5ADBF005F392A336FF2 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96533B9E6E23DE7E3F9D4184 /* ExpoModulesProvider.swift */; };
+		D6E706D74C69DA3B21A3F2B5 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9196FEE063B8AC7A80D1714 /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,8 +81,10 @@
 		17D4A04F0852FDE3AC5C1502 /* libPods-web5wallet-ActionExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-web5wallet-ActionExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2764DC56DD5E801CD0B69950 /* Pods-web5wallet-ActionExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web5wallet-ActionExtension.release.xcconfig"; path = "Target Support Files/Pods-web5wallet-ActionExtension/Pods-web5wallet-ActionExtension.release.xcconfig"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-web5wallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-web5wallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604C1EA6CE39E4B8FBF4749B /* libPods-web5wallet-WebExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-web5wallet-WebExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2E3173556A471DD304B334 /* Pods-web5wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web5wallet.debug.xcconfig"; path = "Target Support Files/Pods-web5wallet/Pods-web5wallet.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-web5wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web5wallet.release.xcconfig"; path = "Target Support Files/Pods-web5wallet/Pods-web5wallet.release.xcconfig"; sourceTree = "<group>"; };
+		95A593E8E07601E1C17DD249 /* Pods-web5wallet-WebExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web5wallet-WebExtension.release.xcconfig"; path = "Target Support Files/Pods-web5wallet-WebExtension/Pods-web5wallet-WebExtension.release.xcconfig"; sourceTree = "<group>"; };
 		96533B9E6E23DE7E3F9D4184 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-web5wallet-ActionExtension/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		A40D17572A13C91C00F4F4D0 /* WebExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebExtension-Bridging-Header.h"; sourceTree = "<group>"; };
 		A4523CE629F6F6BB003B1FA9 /* libReact-Codegen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Codegen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,7 +137,9 @@
 		A4FD97032A12CCE200170AE3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		A4FD97052A12CCE200170AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = web5wallet/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B557B1BB55EABBC2EFA3A9E7 /* Pods-web5wallet-WebExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web5wallet-WebExtension.debug.xcconfig"; path = "Target Support Files/Pods-web5wallet-WebExtension/Pods-web5wallet-WebExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		D9196FEE063B8AC7A80D1714 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-web5wallet-WebExtension/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		E37068E34CB9C9B77D37BD90 /* Pods-web5wallet-ActionExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web5wallet-ActionExtension.debug.xcconfig"; path = "Target Support Files/Pods-web5wallet-ActionExtension/Pods-web5wallet-ActionExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-web5wallet/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
@@ -161,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A16F3C726968B057268C4C /* libPods-web5wallet-WebExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +188,14 @@
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 			);
 			name = web5wallet;
+			sourceTree = "<group>";
+		};
+		1E699945B8F9A523CB19B1DC /* WebExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D9196FEE063B8AC7A80D1714 /* ExpoModulesProvider.swift */,
+			);
+			name = WebExtension;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -216,6 +231,7 @@
 				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-web5wallet.a */,
 				A4E0F36C29F3126B00CFB45D /* UniformTypeIdentifiers.framework */,
 				17D4A04F0852FDE3AC5C1502 /* libPods-web5wallet-ActionExtension.a */,
+				604C1EA6CE39E4B8FBF4749B /* libPods-web5wallet-WebExtension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -328,6 +344,8 @@
 				7A4D352CD337FB3A3BF06240 /* Pods-web5wallet.release.xcconfig */,
 				E37068E34CB9C9B77D37BD90 /* Pods-web5wallet-ActionExtension.debug.xcconfig */,
 				2764DC56DD5E801CD0B69950 /* Pods-web5wallet-ActionExtension.release.xcconfig */,
+				B557B1BB55EABBC2EFA3A9E7 /* Pods-web5wallet-WebExtension.debug.xcconfig */,
+				95A593E8E07601E1C17DD249 /* Pods-web5wallet-WebExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -337,6 +355,7 @@
 			children = (
 				92DBD88DE9BF7D494EA9DA96 /* web5wallet */,
 				5F4F72710144DC151BE19C83 /* ActionExtension */,
+				1E699945B8F9A523CB19B1DC /* WebExtension */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
@@ -393,9 +412,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4FD970B2A12CCE200170AE3 /* Build configuration list for PBXNativeTarget "WebExtension" */;
 			buildPhases = (
+				7B09554B0B7677A07D34AF5F /* [CP] Check Pods Manifest.lock */,
 				A4FD96EC2A12CCE200170AE3 /* Sources */,
 				A4FD96ED2A12CCE200170AE3 /* Frameworks */,
 				A4FD96EE2A12CCE200170AE3 /* Resources */,
+				060BCD9835070AFD4326336D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -503,6 +524,26 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" $PROJECT_ROOT ios relative | tail -n 1)\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
 		};
+		060BCD9835070AFD4326336D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-web5wallet-WebExtension/Pods-web5wallet-WebExtension-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-web5wallet-WebExtension/Pods-web5wallet-WebExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -543,6 +584,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-web5wallet/Pods-web5wallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B09554B0B7677A07D34AF5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-web5wallet-WebExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
@@ -676,6 +739,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4FD96F32A12CCE200170AE3 /* SafariWebExtensionHandler.swift in Sources */,
+				D6E706D74C69DA3B21A3F2B5 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,6 +773,65 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/EXApplication\"",
+					"\"${PODS_ROOT}/Headers/Public/EXConstants\"",
+					"\"${PODS_ROOT}/Headers/Public/EXFileSystem\"",
+					"\"${PODS_ROOT}/Headers/Public/EXFont\"",
+					"\"${PODS_ROOT}/Headers/Public/EXSplashScreen\"",
+					"\"${PODS_ROOT}/Headers/Public/Expo\"",
+					"\"${PODS_ROOT}/Headers/Public/ExpoModulesCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/MMKV\"",
+					"\"${PODS_ROOT}/Headers/Public/MMKVCore\"",
+					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Codegen\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAppDelegate\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-hermes\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/hermes-engine\"",
+					"\"${PODS_ROOT}/Headers/Public/libevent\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-bignumber\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-mmkv\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-quick-base64\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-quick-crypto\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-ssi\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-webview\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ExpoModulesCore/Swift Compatibility Header\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
+					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
+					"\"$(PODS_ROOT)/boost\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"\"$(PODS_TARGET_SRCROOT)/include/\"",
+					"\"$(PODS_ROOT)/boost\"",
+					"\"$(PODS_ROOT)/boost-for-react-native\"",
+					"\"$(PODS_ROOT)/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/React-hermes\"",
+					"\"${PODS_ROOT}/Headers/Public/hermes-engine\"",
 				);
 				INFOPLIST_FILE = web5wallet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -883,10 +1006,11 @@
 				DEVELOPMENT_TEAM = 588U2P8MCF;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ActionExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Web5 Wallet";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -929,10 +1053,11 @@
 				DEVELOPMENT_TEAM = 588U2P8MCF;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ActionExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Web5 Wallet";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
@@ -955,6 +1080,7 @@
 		};
 		A4FD97092A12CCE200170AE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B557B1BB55EABBC2EFA3A9E7 /* Pods-web5wallet-WebExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -970,10 +1096,11 @@
 				DEVELOPMENT_TEAM = 588U2P8MCF;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WebExtension;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -981,6 +1108,9 @@
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.web5wallet.WebExtension1;
@@ -997,6 +1127,7 @@
 		};
 		A4FD970A2A12CCE200170AE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A593E8E07601E1C17DD249 /* Pods-web5wallet-WebExtension.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1013,16 +1144,20 @@
 				DEVELOPMENT_TEAM = 588U2P8MCF;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WebExtension;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.web5wallet.WebExtension1;

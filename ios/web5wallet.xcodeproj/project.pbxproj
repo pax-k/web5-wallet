@@ -87,6 +87,7 @@
 		95A593E8E07601E1C17DD249 /* Pods-web5wallet-WebExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web5wallet-WebExtension.release.xcconfig"; path = "Target Support Files/Pods-web5wallet-WebExtension/Pods-web5wallet-WebExtension.release.xcconfig"; sourceTree = "<group>"; };
 		96533B9E6E23DE7E3F9D4184 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-web5wallet-ActionExtension/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		A40D17572A13C91C00F4F4D0 /* WebExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4305E092A13D0750009F192 /* WebExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebExtension.entitlements; sourceTree = "<group>"; };
 		A4523CE629F6F6BB003B1FA9 /* libReact-Codegen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Codegen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4523CE829F6F6BB003B1FA9 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4523CEA29F6F6BB003B1FA9 /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -306,6 +307,7 @@
 		A4FD96F12A12CCE200170AE3 /* WebExtension */ = {
 			isa = PBXGroup;
 			children = (
+				A4305E092A13D0750009F192 /* WebExtension.entitlements */,
 				A4FD96F22A12CCE200170AE3 /* SafariWebExtensionHandler.swift */,
 				A40D17572A13C91C00F4F4D0 /* WebExtension-Bridging-Header.h */,
 				A4FD97052A12CCE200170AE3 /* Info.plist */,
@@ -1090,6 +1092,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = WebExtension/WebExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1137,6 +1140,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = WebExtension/WebExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;

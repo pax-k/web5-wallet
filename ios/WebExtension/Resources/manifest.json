@@ -18,11 +18,6 @@
         "service_worker": "background.js"
     },
 
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
-
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -35,5 +30,8 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "nativeMessaging" ],
+    "externally_connectable": {
+      "matches": [ "https://5t5uuc-5000.csb.app/" ]
+    }
 }

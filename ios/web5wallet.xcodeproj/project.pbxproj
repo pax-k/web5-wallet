@@ -27,7 +27,6 @@
 		A4FD96F82A12CCE200170AE3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A4FD96F72A12CCE200170AE3 /* images */; };
 		A4FD96FA2A12CCE200170AE3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A4FD96F92A12CCE200170AE3 /* manifest.json */; };
 		A4FD96FC2A12CCE200170AE3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A4FD96FB2A12CCE200170AE3 /* background.js */; };
-		A4FD96FE2A12CCE200170AE3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A4FD96FD2A12CCE200170AE3 /* content.js */; };
 		A4FD97002A12CCE200170AE3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A4FD96FF2A12CCE200170AE3 /* popup.html */; };
 		A4FD97022A12CCE200170AE3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A4FD97012A12CCE200170AE3 /* popup.css */; };
 		A4FD97042A12CCE200170AE3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A4FD97032A12CCE200170AE3 /* popup.js */; };
@@ -128,7 +127,6 @@
 		A4FD96F72A12CCE200170AE3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		A4FD96F92A12CCE200170AE3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		A4FD96FB2A12CCE200170AE3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		A4FD96FD2A12CCE200170AE3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		A4FD96FF2A12CCE200170AE3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		A4FD97012A12CCE200170AE3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		A4FD97032A12CCE200170AE3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
@@ -305,7 +303,6 @@
 				A4FD96F72A12CCE200170AE3 /* images */,
 				A4FD96F92A12CCE200170AE3 /* manifest.json */,
 				A4FD96FB2A12CCE200170AE3 /* background.js */,
-				A4FD96FD2A12CCE200170AE3 /* content.js */,
 				A4FD96FF2A12CCE200170AE3 /* popup.html */,
 				A4FD97012A12CCE200170AE3 /* popup.css */,
 				A4FD97032A12CCE200170AE3 /* popup.js */,
@@ -482,7 +479,6 @@
 				A4FD96F82A12CCE200170AE3 /* images in Resources */,
 				A4FD96FA2A12CCE200170AE3 /* manifest.json in Resources */,
 				A4FD96F62A12CCE200170AE3 /* _locales in Resources */,
-				A4FD96FE2A12CCE200170AE3 /* content.js in Resources */,
 				A4FD97042A12CCE200170AE3 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -982,6 +978,7 @@
 					"-framework",
 					SafariServices,
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.web5wallet.WebExtension1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1021,6 +1018,7 @@
 					"-framework",
 					SafariServices,
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.web5wallet.WebExtension1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -1,3 +1,4 @@
+/* eslint-disable no-await-in-loop */
 import {
   Dwn,
   EventLogLevel,
@@ -17,6 +18,7 @@ import {
   SqliteDialect,
 } from "@tbd54566975/dwn-sql-store";
 import { SqliteDatabase } from "./sqlite-config";
+import { DataStore } from "./data-store";
 
 // singleton
 let dwn: Dwn;
@@ -121,6 +123,8 @@ const initSqliteDwn = async () => {
 };
 
 const checkDwnStatus = async () => {
+  // const startTime = Date.now();
+  // for (let i = 0; i < 100; i++) {
   const { did, keyPair } = await DidKeyResolver.generate();
   const privateJwk = keyPair.privateJwk;
   const data = new TextEncoder().encode("data1");
@@ -155,6 +159,9 @@ const checkDwnStatus = async () => {
   console.info("Checking RecordsQuery result:");
   const queryResult = await dwn.processMessage(did, query.message);
   console.info(JSON.stringify(queryResult));
+  // }
+  // const endTime = Date.now();
+  // console.log(`checkDwnStatus Execution time: ${endTime - startTime}ms`);
 };
 
 const getDwn = () => {
